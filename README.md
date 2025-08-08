@@ -4,7 +4,7 @@ from datetime import datetime
 today = datetime.now()
 
 # Format: YYYY-MM-DD
-date_str = today.strftime("%2025-%8-%8")
+date_str = today.strftime("%2025-%8-%9")
 
 # Print or use the date
 print(f"Today's date is: {date_str}")
